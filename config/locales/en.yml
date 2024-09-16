@@ -1,4 +1,7 @@
 en:
-  hello: "Hello world"
+  home: "Home"
   contact: "Contact"
   greeting: "Hello"
+  help: "Help"
+  title: "Ruby on Rails Tutorial Sample App"
+  login: "Login"
