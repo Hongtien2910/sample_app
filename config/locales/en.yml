@@ -2,3 +2,10 @@ en:
   home: "Home"
   contact: "Contact"
   greeting: "Hello"
+  help: "Help"
+  title: "Ruby on Rails Tutorial Sample App"
+  login: "Login"
+  languages:
+    choose_language: "Choose language"
+    english: "English"
+    vietnamese: "Vietnamese"

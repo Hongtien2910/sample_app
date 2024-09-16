@@ -2,3 +2,10 @@ vi:
   home: "Trang chủ"
   contact: "Liên lạc"
   greeting: "Xin chào"
+  help: "Giúp đỡ"
+  title: "Hướng dẫn Ruby on Rails Ứng dụng mẫu"
+  login: "Đăng nhập"
+  languages:
+    choose_language: "Chọn ngôn ngữ"
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
