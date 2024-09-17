@@ -1,0 +1,16 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include
+ * all the files listed below.
+ *
+ * You're free to add application-wide styles to this file and they'll appear in
+ * the style of the application.
+ *
+ * To reference this file, add the following line to your layout:
+ *
+ * <%= stylesheet_link_tag 'application', 'data-turbo-track': 'reload' %>
+ *
+ *= require_self
+ *= require_tree .
+ */
+ 
+/* Example styles */
