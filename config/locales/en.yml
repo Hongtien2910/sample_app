@@ -9,3 +9,24 @@ en:
     choose_language: "Choose language"
     english: "English"
     vietnamese: "Vietnamese"
+  name: "Name"
+  the_form_contains: "This form contains"
+  error: "error"
+  users:
+    new: 
+      sign_up: "Sign up"
+      create: "Create account"
+      password_confirm: "Password confirmation"
+    create: 
+      created: "User created successful!"
+    show: 
+      not_found: "User not found!"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
