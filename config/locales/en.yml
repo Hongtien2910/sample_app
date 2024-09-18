@@ -1,4 +1,16 @@
 en:
+  layouts:
+    header:
+      logo: "Sample App"
+      home: "Home"
+      contact: "Contact"
+      account: "Account"
+      help: "Help"
+      profile: "Profile"
+      setting: "Setting"
+      log_out: "Log out"
+      log_out_confirm: "Are you sure you want to log out?"
+      log_in: "Log in"
   home: "Home"
   contact: "Contact"
   greeting: "Hello"
@@ -17,6 +29,7 @@ en:
       sign_up: "Sign up"
       create: "Create account"
       password_confirm: "Password confirmation"
+      have_account: "Already have an account?"
     create: 
       created: "User created successful!"
     show: 
@@ -30,3 +43,11 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+  sessions: 
+    new:
+      sign_up_now!: "Sign up now!"
+      new_user?: "New user?"
+      password: "Password"
+    create:
+      successful: "Log in successful!"
+      invalid: "Incorrect email or password!"
