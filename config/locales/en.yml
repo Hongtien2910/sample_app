@@ -48,6 +48,7 @@ en:
       sign_up_now!: "Sign up now!"
       new_user?: "New user?"
       password: "Password"
+      remember_me: "Remember me on this device"
     create:
       successful: "Log in successful!"
       invalid: "Incorrect email or password!"
