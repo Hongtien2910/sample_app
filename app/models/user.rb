@@ -13,7 +13,8 @@ password_confirmation).freeze
             uniqueness: {case_sensitive: false}
 
   validates :password, presence: true,
-            length: {minimum: Settings.sign_up.min_password}
+            length: {minimum: Settings.sign_up.min_password},
+            allow_nil: true
 
   has_secure_password
 

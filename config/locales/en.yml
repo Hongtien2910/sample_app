@@ -5,6 +5,7 @@ en:
       home: "Home"
       contact: "Contact"
       account: "Account"
+      users: "Users"
       help: "Help"
       profile: "Profile"
       setting: "Setting"
@@ -34,6 +35,23 @@ en:
       created: "User created successful!"
     show: 
       not_found: "User not found!"
+    unauthenticated: "Please log in!"
+    unauthorized: "You do not have access!"
+    not_found: "User not found!"
+    user:
+      delete: "Delete"
+      delete_confirm: "Delete this user?"
+    index:
+      all_users: "All users"
+    edit:
+      edit_info: "Edit information"
+      save_changes: "Save changes"
+      change: "Change"
+    update:
+      success: "Update profile successfully"
+    destroy:
+      success: "User deleted"
+      fail: "User deteled fail"
   activerecord:
     models:
       user: "User"
