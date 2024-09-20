@@ -5,6 +5,7 @@ vi:
       home: "Trang chủ"
       contact: "Liên lạc"
       account: "Tài khoản"
+      users: "Các tài khoản"
       help: "Giúp đỡ"
       profile: "Hồ sơ"
       setting: "Cài đặt"
@@ -34,6 +35,23 @@ vi:
       created: "Tạo tài khoản thành công!"
     show: 
       not_found: "Không tìm thấy người dùng!"
+    unauthenticated: "Hãy đăng nhập"
+    unauthorized: "Bạn không có quyền truy cập"
+    not_found: "Không tìm thấy người dùng!"
+    user:
+      delete: "Xóa"
+      delete_confirm: "Xóa người dùng này??"
+    index:
+      all_users: "Tất cả người dùng"
+    edit:
+      edit_info: "Chỉnh sửa thông tin"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
+    update:
+      success: "Cập nhật thông tin thành công"
+    destroy:
+      success: "Xóa người dùng thành công"
+      fail: "Xóa người dùng không thành công"
   activerecord:
     models:
       user: "Người dùng"
