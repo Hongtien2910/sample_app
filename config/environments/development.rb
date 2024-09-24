@@ -76,9 +76,9 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     user_name: ENV["USER_NAME"],
     password: ENV["USER_PASSWORD"],
-    address: ENV["ADDRESS"],
-    host: ENV["HOST"],
-    port: ENV["PORT"],
+    address: ENV["MAILS_ADDRESS"],
+    host: ENV["MAILS_HOST"],
+    port: ENV["MAILS_PORT"],
     authentication: ENV["AUTHENTICATION"]}
   
 end

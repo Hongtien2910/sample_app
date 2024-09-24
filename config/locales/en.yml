@@ -80,6 +80,29 @@ en:
       account_activation: "Account activation"
       greeting: "Hello %{user_name}"
       instruction: "Welcome to Sample App. Click on the link below to activate your account"
+    password_reset:
+      password_reset: "Password reset"
+      greeting: "Hello %{user_name}"
+      instruction: "Click the link below to reset your password. The link will expire in %{expire_time} hour."
+      reset: "Reset the password"
   account_activations:
     success: "Account activated"
-    invalid_link: "Invalid activation link"
+    invalid_link: "Invalid activation link"   
+  password_resets: 
+    invalid_email: "Invalid email"
+    expired_link: "The link has expired"
+    invalid_user: "Invalid user"
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    create:
+      invalid_user: "Invalid user"
+      check_email: "Please check your email to reset password"
+    update:
+      cannot_empty: "Cannot empty"
+      reset_success: "Password reset successfully"
+    edit:
+      password: "Password"
+      confirm: "Confirm password"
+      submit: "Submit"
+      password_reset: "Reset password"
