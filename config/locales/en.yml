@@ -23,8 +23,16 @@ en:
     english: "English"
     vietnamese: "Vietnamese"
   name: "Name"
-  the_form_contains: "This form contains"
-  error: "error"
+  shared:
+    error_messages:
+      the_form_contains: "This form contains"
+      error: "error"
+    micropost_form:
+      compose_new: "Compose new micropost "
+      post: "Post"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "Micropost"
   users:
     new: 
       sign_up: "Sign up"
@@ -39,6 +47,8 @@ en:
     unauthenticated: "Please log in!"
     unauthorized: "You do not have access!"
     not_found: "User not found!"
+    show:
+      total_microposts: "Microposts (%{total})"
     user:
       delete: "Delete"
       delete_confirm: "Delete this user?"
@@ -106,3 +116,14 @@ en:
       confirm: "Confirm password"
       submit: "Submit"
       password_reset: "Reset password"
+  microposts:
+    create:
+      success: "Micropost created successful!"
+    destroy:
+      success: "Micropost deleted successful!"
+    micropost:
+      posted_ago: "Posted %{times} ago"
+      delete: "Delete post"
+      delete_confirm: "Are you sure to delete this micropost?"
+  alert:
+    too_large_img_size: "Image size too large (> 5MB)"
