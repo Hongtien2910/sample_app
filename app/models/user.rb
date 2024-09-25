@@ -9,6 +9,8 @@ password_confirmation).freeze
   before_save :downcase_email
   before_create :create_activation_digest
 
+  has_many :microposts, dependent: :destroy
+
   validates :name, presence: true,
             length: {maximum: Settings.sign_up.max_name}
 
@@ -22,6 +24,8 @@ password_confirmation).freeze
             allow_nil: true
 
   has_secure_password
+
+  scope :activated?, ->{where(activated: true)}
 
   class << self
     def digest string
@@ -78,6 +82,10 @@ password_confirmation).freeze
 
   def password_reset_expired?
     reset_sent_at < Settings.reset_expired_time.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private
