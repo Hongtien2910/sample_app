@@ -12,6 +12,7 @@ class Micropost < ApplicationRecord
             size:         {less_than: Settings.max_upload_img_size.megabytes}
 
   scope :newest, ->{order created_at: :desc}
+  scope :relate_post, ->(user_ids){where user_id: user_ids}
 
   private
 

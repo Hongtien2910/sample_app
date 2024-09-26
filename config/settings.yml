@@ -16,3 +16,4 @@ gravatar_size: 50
 display_image_size:
   width: 500
   height: 500
+small_avatar: 40

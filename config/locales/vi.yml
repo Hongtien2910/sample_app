@@ -33,6 +33,9 @@ vi:
     user_info:
       view_profile: "Xem trang cá nhân"
       micropost: "Bài viết"
+    stats:
+      following_count: "%{count} đang theo dõi"
+      follower: "người theo dõi"
   users:
     new:
       sign_up: "Đăng ký"
@@ -63,6 +66,13 @@ vi:
     destroy:
       success: "Xóa người dùng thành công"
       fail: "Xóa người dùng không thành công"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      microposts: "Tổng số bài viết"
+      view_profile: "Xem hồ sơ"
   activerecord:
     models:
       user: "Người dùng"
@@ -128,3 +138,9 @@ vi:
       delete_confirm: "Bạn có chắc là muốn xóa bài viết?"
   alert:
     too_large_img_size: "Kích thước ảnh quá lớn (> 5MB)"
+  relationships:
+    invalid_user: "Người dùng không khả dụng"
+    destroy:
+      follower: "người theo dõi"
+    create:
+      follower: "người theo dõi"
