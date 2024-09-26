@@ -33,6 +33,9 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following_count: "%{count} following"
+      follower: "follower"
   users:
     new: 
       sign_up: "Sign up"
@@ -63,6 +66,13 @@ en:
     destroy:
       success: "User deleted"
       fail: "User deteled fail"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Total posts"
+      view_profile: "View profile"
   activerecord:
     models:
       user: "User"
@@ -127,3 +137,9 @@ en:
       delete_confirm: "Are you sure to delete this micropost?"
   alert:
     too_large_img_size: "Image size too large (> 5MB)"
+  relationships:
+    invalid_user: "Invalid user"
+    destroy:
+      follower: "follower"
+    create:
+      follower: "follower"
